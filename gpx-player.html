@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>GPX-PLAYER</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link href="css/custom.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.0.52/wavesurfer.min.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.regions.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="waveformDiv">
+      <div id="waveform"></div>
+    </div>
+    <div id="audioFeature">
+      <a class="round-button" id="playPause"
+        ><i class="fa fa-play fa-2x" id="playPauseIcon"></i
+      ></a>
+    </div>
+    <p id="timeCounter">
+      <span id="runAudioTime">00:00:00</span> /
+      <span id="fullAudioTime">00:00:00</span>
+    </p>
+    <div id="selectData">
+      <select name="geoDataSelect" id="geoDataSelect">
+      </select>
+    </div>
+    <div id="pointSecond">
+      <b>Number of seconds in audio : <span id="noOfSeconds"></span></b><br>
+      <b>Number of points in map : <span id="noOfPoint"></span></b>
+    </div>
+    <div id="map"></div>
+    <audio-player id="audioPlayerTag"></audio-player>
+  </body>
+  <script type="text/javascript" src="js/audio.js"></script>
+</html>
