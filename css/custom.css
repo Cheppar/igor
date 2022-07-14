@@ -34,6 +34,19 @@
   font-family: monospace;
 }
 
+/* START FORM*/
+
+#sidebar-form{
+ float: right;
+ margin-right: 30px;
+}
+
+.form-group{
+  width: 50%;
+
+}
+/* END FORM */
+
 #waveform {
   /* background: rgba(0, 0, 0, 0.7);
   width: 100%;
