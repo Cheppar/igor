@@ -1,5 +1,6 @@
 const gpxServer = "https://livecapture-420.s3.amazonaws.com/";
 const apiServer = "https://stage.addyourtour.com:8443/gpx/";
+const json2 = "https://livecapture-420.s3.amazonaws.com/";
 class AudioPlayer extends HTMLElement {
   constructor() {
     super();
@@ -136,7 +137,7 @@ class AudioPlayer extends HTMLElement {
             : b
         );
 
-      let slectedIndex = 0;
+      let selectedIndex = 0;
       for (var i = 0; i < this.geoCoordinates.length; i++) {
         if (
           this.geoCoordinates[i][0] == result[0] &&
