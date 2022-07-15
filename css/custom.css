@@ -92,6 +92,7 @@ color: #0095FC;
   width: 80%;
   margin-left: 20px;
   border-radius: 25px;
+  margin-bottom: 10px;
 }
 
 .white{
@@ -133,6 +134,86 @@ color: #0095FC;
   border-radius: 0.25rem;
   border: 1px solid #ced4da;
   font-weight: 200;
+}
+.nusu{
+  width: 40%;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.custom-search {
+  position: relative;
+  width: 85%;
+  float: left;
+  margin-right: -50px;
+}
+
+.custom-searchi {
+  position: relative;
+    width: 50%;
+    float: left;
+    margin-right: -100pc;
+}
+
+.custom-search-input {
+  width: 55%;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 9px 40px 12px 17px; 
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+}
+.custom-search-botton {
+   position: absolute;
+    right: 136px;
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background: #d1095e;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0px 14px;
+    border-radius: 57%;
+    z-index: 2;
+}
+
+.custom-search-bottoni {
+  position: absolute;
+    right: 14px;
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background: #d1095e;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0px 14px;
+    border-radius: 57%;
+    z-index: 2;
+}
+.custom-search-inputi{
+  border-radius: 100px;
+  width: 89%;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 9px 40px 12px 17px; 
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.bottoni{
+  margin-bottom: 50px;
+}
+
+textarea{
+  overflow: auto;
+    resize: vertical;
+    margin: 5px 5px 5px 8px;
+    height: 150px;
 }
 /* END FORM */
 
