@@ -36,13 +36,20 @@
 
 /* START FORM*/
 
+
+.tiptip{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
 .tip{
 font-style: normal;
 font-weight: 300;
 font-size: 18px;
 line-height: 25px;
-
 color: #0095FC;
+
 }
 
 #sidebar-form{
@@ -50,11 +57,27 @@ color: #0095FC;
   float: right;
   margin-top: 50px;
   margin-right: 30px;
+  border-radius: 25px;
 }
 
-.tiptip{
-  padding-left: 10px;
-  padding-right: 20px;
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(0.9em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.5;
+    
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.pam{
+  background: #81FD94; 
 }
 
 .form-group{
@@ -63,6 +86,13 @@ color: #0095FC;
 
 .btn-form-group{
   background-color: #0095FC;
+  border: solid #0095FC;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.white{
+  background-color: white;
 }
 /* END FORM */
 
