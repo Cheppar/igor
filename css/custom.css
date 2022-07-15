@@ -94,6 +94,28 @@ color: #0095FC;
 .white{
   background-color: white;
 }
+
+.tit{
+  color: white;
+  margin-bottom: -1rem;
+}
+
+.hr {
+    
+    border: 0;
+    border-top: 0.1px solid rgba(0,0,0,.1);
+}
+
+.circular_image{
+  width: 72px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue; 
+  /*for demo*/
+  display:inline-block;
+  vertical-align:middle;
+}
 /* END FORM */
 
 #waveform {
